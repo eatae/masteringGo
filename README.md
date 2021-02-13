@@ -8,7 +8,7 @@
 * Пишем в файл (логи) <br>
 [customLog.go](https://github.com/eatae/Mastering-Go-Second-Edition/blob/master/ch01/customLog.go)
 
-* Название <br>
+* Использование внешнего пакета <br>
     [ссылка](адрес)
     
 * Название <br>
