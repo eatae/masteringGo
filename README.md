@@ -50,6 +50,27 @@
 * Интересная разбивка **Map** через % остаток<br>
 [mapSplit](https://github.com/eatae/Mastering-Go-Second-Edition/blob/master/ch02/mapSplit.go)
     
+* **unsafe** - получаем адрес Pointer и размер  <br>
+[moreUnsafe](https://github.com/eatae/Mastering-Go-Second-Edition/blob/master/ch02/moreUnsafe.go)
+
+* panic()  recover() <br>
+[panicRecover](https://github.com/eatae/Mastering-Go-Second-Edition/blob/master/ch02/panicRecover.go)
+    
+* Получаем число из строки (Atoi) <br>
+[requiredVersion](https://github.com/eatae/Mastering-Go-Second-Edition/blob/master/ch02/requiredVersion.go)
+
+
+## ch03
+
+* Название <br>
+[ссылка](адрес)
+    
+* Название <br>
+[ссылка](адрес)
+    
+* Название <br>
+[ссылка](адрес)
+    
 * Название <br>
 [ссылка](адрес)
 
@@ -59,6 +80,24 @@
 * Название <br>
 [ссылка](адрес)
     
+* Название <br>
+[ссылка](адрес)
+    
+* Название <br>
+[ссылка](адрес)
+
+* Название <br>
+[ссылка](адрес)
+    
+* Название <br>
+[ссылка](адрес)
+    
+* Название <br>
+[ссылка](адрес)
+    
+* Название <br>
+[ссылка](адрес)
+
 * Название <br>
 [ссылка](адрес)
     
