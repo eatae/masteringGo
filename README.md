@@ -1,6 +1,9 @@
-# Mastering-Go-Second-Edition
-Mastering Go Second Edition, published by Packt
+# Mastering-Go
 
+### ch01
 
-The Amazon.com page of the book is [here](https://www.amazon.com/Mastering-production-applications-concurrency-structures/dp/1838559337/).
-You can also visit the web page of the book at [Packt](https://www.packtpub.com/programming/mastering-go-second-edition).
+* Читаем float из STDIN <br>
+    [cla.go](https://github.com/eatae/Mastering-Go-Second-Edition/blob/master/ch01/cla.go)
+    
+* Пишем в файл (логи)
+    [cla.go](https://github.com/eatae/Mastering-Go-Second-Edition/blob/master/ch01/customLog.go)
