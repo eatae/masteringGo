@@ -120,8 +120,7 @@
 
 
 
-## ch05 
-## Структуры данных
+## Структуры данных (ch05)
 
 * Двоичное дерево <br>
 [binTree](https://github.com/eatae/masteringGo/blob/master/ch05/binTree.go)
@@ -137,6 +136,26 @@
 
 * Двусвязные списки <br>
 [doublyLList](https://github.com/eatae/masteringGo/blob/master/ch05/doublyLList.go)
+    
+* Очереди (queue) <br>
+[queue](https://github.com/eatae/masteringGo/blob/master/ch05/queue.go)
+    
+* Стеки (stack) <br>
+[stack](https://github.com/eatae/masteringGo/blob/master/ch05/stack.go)
+
+##### Пакет Container <br>
+ 
+* Сontainer/heap (реализация интерфейса кучи) <br>
+[conHeap](https://github.com/eatae/masteringGo/blob/master/ch05/conHeap.go)
+
+* Container/list (список) <br>
+[conList](https://github.com/eatae/masteringGo/blob/master/ch05/conList.go)
+    
+* Container/ring (Кольцо) <br>
+[conRing](https://github.com/eatae/masteringGo/blob/master/ch05/conRing.go)
+
+* Название <br>
+[ссылка](адрес)
     
 * Название <br>
 [ссылка](адрес)
