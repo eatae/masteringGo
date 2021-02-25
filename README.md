@@ -169,6 +169,7 @@
 [ссылка](адрес)
 
 
+
 ## Структуры данных (ch05)
 
 * Двоичное дерево <br>
@@ -203,11 +204,67 @@
 * Container/ring (Кольцо) <br>
 [conRing](https://github.com/eatae/masteringGo/blob/master/ch05/conRing.go)
 
+##### Генерация чисел и строк <br>
+
+* Генерация случайных чисел <br>
+[randomNumbers](https://github.com/eatae/masteringGo/blob/master/ch05/randomNumbers.go)
+    
+* Генерация случайных строк <br>
+[generatePassword](https://github.com/eatae/masteringGo/blob/master/ch05/generatePassword.go)
+    
+* Генерация безопасной последовательности случайных чисел <br>
+[cryptoRand](https://github.com/eatae/masteringGo/blob/master/ch05/cryptoRand.go)
+
+##### Выполнение матричных вычислений <br>
+
+* Сложение, вычитание матриц <br>
+[addMat](https://github.com/eatae/masteringGo/blob/master/ch05/addMat.go)
+
+* Умножение матриц <br>
+[mulMat](https://github.com/eatae/masteringGo/blob/master/ch05/mulMat.go)
+
+* Деление матриц <br>
+[divMat](https://github.com/eatae/masteringGo/blob/master/ch05/divMat.go)
+
+* Как определить размер массива <br>
+[dimensions](https://github.com/eatae/masteringGo/blob/master/ch05/dimensions.go)
+
+* Разгадывание Судоку <br>
+[sudoku](https://github.com/eatae/masteringGo/blob/master/ch05/sudoku.go)
+
+
+
+## Неочевидные знания о пакетах и функциях Go (ch06)
+
 * Название <br>
 [ссылка](адрес)
-    
+
 * Название <br>
 [ссылка](адрес)
-    
+
+* Название <br>
+[ссылка](адрес)
+
+* Название <br>
+[ссылка](адрес)
+
+* Название <br>
+[ссылка](адрес)
+
+* Название <br>
+[ссылка](адрес)
+
+* Название <br>
+[ссылка](адрес)
+
+* Название <br>
+[ссылка](адрес)
+
+* Название <br>
+[ссылка](адрес)
+
+* Название <br>
+[ссылка](адрес)
+
 * Название <br>
 [ссылка](адрес)
