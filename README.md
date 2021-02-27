@@ -236,6 +236,42 @@
 
 ## Неочевидные знания о пакетах и функциях Go (ch06)
 
+##### Функции <br>
+
+* Функции которые возвращают несколько значений <br>
+[functions](https://github.com/eatae/masteringGo/blob/master/ch06/functions.go)
+
+* Функции, возвращающие именованные значения <br>
+[returnNames](https://github.com/eatae/masteringGo/blob/master/ch06/returnNames.go)
+
+* Функции, принимающие указатели <br>
+[ptrFun](https://github.com/eatae/masteringGo/blob/master/ch06/ptrFun.go)
+
+* Функции, которые возвращают указатели <br>
+[returnPtr](https://github.com/eatae/masteringGo/blob/master/ch06/returnPtr.go)
+
+* Функции, которые возвращают другие функции <br>
+[returnFunction](https://github.com/eatae/masteringGo/blob/master/ch06/returnFunction.go)
+
+* Функции, которые принимают другие функции в качестве параметров <br>
+[funFun](https://github.com/eatae/masteringGo/blob/master/ch06/funFun.go)
+
+* Функции с переменным числом параметров <br>
+[variadic](https://github.com/eatae/masteringGo/blob/master/ch06/variadic.go)
+
+##### Разработка Go-пакетов <br>
+
+* Создание и использование пакета <br>
+[aPackage](https://github.com/eatae/masteringGo/blob/master/ch06/aPackage.go) <br>
+[useAPackage](https://github.com/eatae/masteringGo/blob/master/ch06/useAPackage.go) <br>
+
+    mkdir ~/go/src/aPackage
+    cp aPackage.go ~/go/src/aPackage/
+    go install aPackage
+
+* Название <br>
+[ссылка](адрес)
+
 * Название <br>
 [ссылка](адрес)
 
