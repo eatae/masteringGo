@@ -273,8 +273,19 @@
     >go tool compile aPackage.go
     >
                                                                                                                                                                                                                                                                                                                                                         
-* Название <br>
-[ссылка](адрес)
+* Функция init() <br>
+[a](https://github.com/eatae/masteringGo/blob/master/ch06/a.go) <br>
+[b](https://github.com/eatae/masteringGo/blob/master/ch06/b.go) <br>
+[manyInit](https://github.com/eatae/masteringGo/blob/master/ch06/manyInit.go) <br>
+    Install:
+    >mkdir ~/go/src/a <br>
+     cp a.go ~/go/src/a/ <br>
+     go install a <br>
+     mkdir ~/go/src/b <br>
+     cp b.go ~/go/src/b/ <br>
+     go install b <br>
+
+##### Модули <br>
 
 * Название <br>
 [ссылка](адрес)
