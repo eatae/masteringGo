@@ -62,8 +62,8 @@
 
 ## ch03
 
-* Название <br>
-[ссылка](адрес)
+* Декодируем (читаем) из JSON <br>
+[readJSON](https://github.com/eatae/Mastering-Go-Second-Edition/blob/master/ch04/readJSON.go)
     
 * Название <br>
 [ссылка](адрес)
@@ -109,3 +109,47 @@
     
 * Название <br>
 [ссылка](адрес)
+
+
+
+
+## ch04
+
+* Декодируем (читаем) из JSON <br>
+[readJSON](https://github.com/eatae/Mastering-Go-Second-Edition/blob/master/ch04/readJSON.go)
+
+* Название <br>
+[ссылка](адрес)
+
+* Название <br>
+[ссылка](адрес)
+    
+* Название <br>
+[ссылка](адрес)
+    
+* Название <br>
+[ссылка](адрес)
+    
+* Название <br>
+[ссылка](адрес)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
