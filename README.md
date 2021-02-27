@@ -264,11 +264,15 @@
 * Создание и использование пакета <br>
 [aPackage](https://github.com/eatae/masteringGo/blob/master/ch06/aPackage.go) <br>
 [useAPackage](https://github.com/eatae/masteringGo/blob/master/ch06/useAPackage.go) <br>
-
-    mkdir ~/go/src/aPackage
-    cp aPackage.go ~/go/src/aPackage/
-    go install aPackage
-
+    Install:
+    >mkdir ~/go/src/aPackage <br>
+    cp aPackage.go ~/go/src/aPackage/ <br>
+    go install aPackage <br>
+    >
+    Compile:
+    >go tool compile aPackage.go
+    >
+                                                                                                                                                                                                                                                                                                                                                        
 * Название <br>
 [ссылка](адрес)
 
