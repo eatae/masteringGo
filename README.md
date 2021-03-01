@@ -287,29 +287,40 @@
 
 ##### Модули <br>
 
-* Название <br>
-[ссылка](адрес)
+* Читаем книгу (стр.290) <br>
 
-* Название <br>
-[ссылка](адрес)
 
-* Название <br>
-[ссылка](адрес)
+##### Некоторые пакеты Go (scanner/parser/token/ast)<br>
 
-* Название <br>
-[ссылка](адрес)
+* Пакет syscall <br>
+[useSyscall](https://github.com/eatae/masteringGo/blob/master/ch06/useSyscall.go)
 
-* Название <br>
-[ссылка](адрес)
+* Встроенный пакет go/scanner (синтаксический сканер программы на Go) <br>
+[goScanner](https://github.com/eatae/masteringGo/blob/master/ch06/goScanner.go)
 
-* Название <br>
-[ссылка](адрес)
+* Встроенный пакет go/parser (синтаксический анализ программы на Go) <br>
+[goParser](https://github.com/eatae/masteringGo/blob/master/ch06/goParser.go)
 
-* Название <br>
-[ссылка](адрес)
+* парсим файл Go, подсчитываем кол-во яз.конструкций var <br>
+[varTimes](https://github.com/eatae/masteringGo/blob/master/ch06/varTimes.go)
 
-* Название <br>
-[ссылка](адрес)
+* Поиск имен переменных заданной длины (сложно, куча вложенных if) <br>
+[varSize](https://github.com/eatae/masteringGo/blob/master/ch06/varSize.go)
+
+
+##### Шаблонизатор для текста, HTML <br>
+
+* Выод простого текста <br>
+[textT](https://github.com/eatae/masteringGo/blob/master/ch06/textT.go) <br>
+[text.gotext](https://github.com/eatae/masteringGo/blob/master/ch06/text.gotext)
+
+* HTML template + DataBase <br>
+[htmlT](https://github.com/eatae/masteringGo/blob/master/ch06/htmlT.go) <br>
+[html.gohtml](https://github.com/eatae/masteringGo/blob/master/ch06/html.gohtml)
+
+
+
+## Рефлексия и интерфейсы на все случае жизни (ch07)
 
 * Название <br>
 [ссылка](адрес)
