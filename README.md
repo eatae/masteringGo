@@ -330,7 +330,7 @@
 * Встроенный пакет go/parser (синтаксический анализ программы на Go) <br>
 [goParser](https://github.com/eatae/masteringGo/blob/master/ch06/goParser.go)
 
-* парсим файл Go, подсчитываем кол-во яз.конструкций var <br>
+* Парсим файл Go, подсчитываем кол-во яз.конструкций var <br>
 [varTimes](https://github.com/eatae/masteringGo/blob/master/ch06/varTimes.go)
 
 * Поиск имен переменных заданной длины (сложно, куча вложенных if) <br>
@@ -350,6 +350,52 @@
 
 
 ## Рефлексия и интерфейсы на все случае жизни (ch07)
+
+##### Свои типы, интерфейсы и проверка типа <br>
+
+* Создаём структуру (тип) и метод к ней <br>
+[methods](https://github.com/eatae/masteringGo/blob/master/ch07/methods.go)
+
+* Проверка типа <br>
+[assertion](https://github.com/eatae/masteringGo/blob/master/ch07/assertion.go)
+
+* Создание интерфейс / использование интерфейса <br>
+[myInterface](https://github.com/eatae/masteringGo/blob/master/ch07/myInterface.go)
+[useInterface](https://github.com/eatae/masteringGo/blob/master/ch07/useInterface.go)
+
+* Switch для типов данных <br>
+[switch](https://github.com/eatae/masteringGo/blob/master/ch07/switch.go)
+
+
+##### Рефлексия <br>
+
+* Простой пример <br>
+[reflection](https://github.com/eatae/masteringGo/blob/master/ch07/reflection.go)
+
+* Более сложный пример <br>
+[advRefl](https://github.com/eatae/masteringGo/blob/master/ch07/advRefl.go)
+
+* Библиотека reflectwalk (рефлексия) <br>
+[walkRef](https://github.com/eatae/masteringGo/blob/master/ch07/walkRef.go)
+
+##### ООП (композиция) <br>
+
+* Пример ООП <br>
+[ooo](https://github.com/eatae/masteringGo/blob/master/ch07/ooo.go)
+[goCoIn](https://github.com/eatae/masteringGo/blob/master/ch07/goCoIn.go)
+
+
+
+## Как объяснить UNIX-системе, что она должна делать (ch08)
+
+* Пакет flag <br>
+[ссылка](адрес)
+
+* Название <br>
+[ссылка](адрес)
+
+* Название <br>
+[ссылка](адрес)
 
 * Название <br>
 [ссылка](адрес)
