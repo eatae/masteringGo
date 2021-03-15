@@ -120,6 +120,8 @@
 
 ## Использованеи составных типов данных (ch04)
 
+##### Структуры <br>
+
 * Структуры, разные способы создания <br>
 [structures](https://github.com/eatae/masteringGo/blob/master/ch04/structures.go)
     
@@ -128,7 +130,10 @@
     
 * Кортежи, возврат нескоьких значений <br>
 [tuples](https://github.com/eatae/masteringGo/blob/master/ch04/tuples.go)
-    
+
+
+##### RegExp <br>
+
 * RegExp, чтение файла построчно, нахождение подстроки <br>
 [selectColumn](https://github.com/eatae/masteringGo/blob/master/ch04/selectColumn.go)
 
@@ -137,36 +142,55 @@
     
 * RegExp, проверка IPv4-адресов <br>
 [findIPv4](https://github.com/eatae/masteringGo/blob/master/ch04/findIPv4.go)
+
+
+##### Строки <br>
+
+* Создание строки, итерация <br>
+[strings](https://github.com/eatae/masteringGo/blob/master/ch04/strings.go)
+
+* Руны (строка - множество рун) <br>
+[ссылка](https://github.com/eatae/masteringGo/blob/master/ch04/runes.go)
+
+* Какие символы являются рунами (пакет unicode) <br>
+[unicode](https://github.com/eatae/masteringGo/blob/master/ch04/unicode.go)
     
-* Название <br>
+* Манипуляция строками (пакет string) <br>
+[useStrings](https://github.com/eatae/masteringGo/blob/master/ch04/useStrings.go)
+    
+* switch, string + RegExp <br>
+[switch](https://github.com/eatae/masteringGo/blob/master/ch04/switch.go)
+
+*  Хранилище Key:Value. В цикле слушаем StdIn и выполняем комманды <br>
 [ссылка](адрес)
 
-* Название <br>
-[ссылка](адрес)
 
-* Название <br>
-[ссылка](адрес)
-    
-* Название <br>
-[ссылка](адрес)
-    
-* Название <br>
-[ссылка](адрес)
+##### JSON <br>
 
-* Название <br>
-[ссылка](адрес)
+* Читаем JSON из файла и Декодируем во вложенные структуры <br>
+[readJSON](https://github.com/eatae/masteringGo/blob/master/ch04/readJSON.go)
 
-* Название <br>
-[ссылка](адрес)
+* Пишем наши структуры в виде JSON в файл <br>
+[writeJSON](https://github.com/eatae/masteringGo/blob/master/ch04/writeJSON.go)
+    
+* функции Marshal() и Unmarshal() (удобнее чем encode/decode) <br>
+[сmUJSON](https://github.com/eatae/masteringGo/blob/master/ch04/mUJSON.go)
+    
+* Чтение и запись JSON без структурирования (используется Map) <br>
+[parsingJSON](https://github.com/eatae/masteringGo/blob/master/ch04/parsingJSON.go)
 
-* Название <br>
-[ссылка](адрес)
+
+##### XML <br>
+
+* Структуру переводим в XML <br>
+[rwXML](https://github.com/eatae/masteringGo/blob/master/ch04/rwXML.go)
+
+* Чтение XML-файла <br>
+[readXML](https://github.com/eatae/masteringGo/blob/master/ch04/readXML.go)
     
-* Название <br>
-[ссылка](адрес)
-    
-* Название <br>
-[ссылка](адрес)
+* Поля структуры как XML данные <br>
+[modXML](https://github.com/eatae/masteringGo/blob/master/ch04/modXML.go)
+
 
 
 
@@ -193,6 +217,7 @@
 * Стеки (stack) <br>
 [stack](https://github.com/eatae/masteringGo/blob/master/ch05/stack.go)
 
+
 ##### Пакет Container <br>
  
 * Сontainer/heap (реализация интерфейса кучи) <br>
@@ -204,6 +229,7 @@
 * Container/ring (Кольцо) <br>
 [conRing](https://github.com/eatae/masteringGo/blob/master/ch05/conRing.go)
 
+
 ##### Генерация чисел и строк <br>
 
 * Генерация случайных чисел <br>
@@ -214,6 +240,7 @@
     
 * Генерация безопасной последовательности случайных чисел <br>
 [cryptoRand](https://github.com/eatae/masteringGo/blob/master/ch05/cryptoRand.go)
+
 
 ##### Выполнение матричных вычислений <br>
 
@@ -231,6 +258,7 @@
 
 * Разгадывание Судоку <br>
 [sudoku](https://github.com/eatae/masteringGo/blob/master/ch05/sudoku.go)
+
 
 
 
@@ -258,6 +286,7 @@
 
 * Функции с переменным числом параметров <br>
 [variadic](https://github.com/eatae/masteringGo/blob/master/ch06/variadic.go)
+
 
 ##### Разработка Go-пакетов <br>
 
