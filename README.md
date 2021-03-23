@@ -360,7 +360,7 @@
 [assertion](https://github.com/eatae/masteringGo/blob/master/ch07/assertion.go)
 
 * Создание интерфейс / использование интерфейса <br>
-[myInterface](https://github.com/eatae/masteringGo/blob/master/ch07/myInterface.go)
+[myInterface](https://github.com/eatae/masteringGo/blob/master/ch07/myInterface.go) <br>
 [useInterface](https://github.com/eatae/masteringGo/blob/master/ch07/useInterface.go)
 
 * Switch для типов данных <br>
@@ -381,23 +381,31 @@
 ##### ООП (композиция) <br>
 
 * Пример ООП <br>
-[ooo](https://github.com/eatae/masteringGo/blob/master/ch07/ooo.go)
+[ooo](https://github.com/eatae/masteringGo/blob/master/ch07/ooo.go) <br>
 [goCoIn](https://github.com/eatae/masteringGo/blob/master/ch07/goCoIn.go)
+
+
 
 
 
 ## Как объяснить UNIX-системе, что она должна делать (ch08)
 
+##### Аргументы командной строки <br>
+
 * Пакет flag <br>
-[ссылка](адрес)
+[ссылка](https://github.com/eatae/masteringGo/blob/master/ch08/simpleFlag.go) <br>
+[funWithFlag](https://github.com/eatae/masteringGo/blob/master/ch08/funWithFlag.go) <br>
 
-* Название <br>
-[ссылка](адрес)
+* Пакет viper (директория) <br>
+[viper](https://github.com/eatae/masteringGo/tree/master/ch08/viper)
 
-* Название <br>
-[ссылка](адрес)
+* Пакет cobra (директория) <br>
+[cobra](https://github.com/eatae/masteringGo/tree/master/ch08/cobra)
 
-* Название <br>
+
+##### Интерфейсы io.Reader и io.Writer <br>
+
+* Псотрочное чтение текстового файла <br>
 [ссылка](адрес)
 
 * Название <br>
