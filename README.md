@@ -390,80 +390,80 @@
 
 ## Как объяснить UNIX-системе, что она должна делать (ch08)
 
-##### Аргументы командной строки <br>
+#### Аргументы командной строки <br>
 
-* Пакет flag <br>
-[ссылка](https://github.com/eatae/masteringGo/blob/master/ch08/simpleFlag.go) <br>
+* **Пакет** flag <br>
+[simpleFlag](https://github.com/eatae/masteringGo/blob/master/ch08/simpleFlag.go) <br>
 [funWithFlag](https://github.com/eatae/masteringGo/blob/master/ch08/funWithFlag.go) <br>
 
-* Пакет viper (директория) <br>
+* **Пакет** viper (директория) <br>
 [viper](https://github.com/eatae/masteringGo/tree/master/ch08/viper)
 
-* Пакет cobra (директория) <br>
+* **Пакет** cobra (директория) <br>
 [cobra](https://github.com/eatae/masteringGo/tree/master/ch08/cobra)
 
 
-##### Интерфейсы io.Reader и io.Writer (Чтение / Запись в файл) <br>
+#### Интерфейсы io.Reader и io.Writer (Чтение / Запись в файл) <br>
 
-* Посотрочное чтение текстового файла (пакет bufio) <br>
+* **Построчное чтение текстового файла (пакет bufio)** <br>
 [byLine](https://github.com/eatae/masteringGo/blob/master/ch08/byLine.go)
 
-* Чтение текстового файла по словам (пакет bufio, regexp) <br>
+* **Чтение текстового файла по словам (пакет bufio, regexp)** <br>
 [byWord](https://github.com/eatae/masteringGo/blob/master/ch08/byWord.go)
 
-* Чтение текстового файла по символам <br>
+* **Чтение текстового файла по символам** <br>
 [byCharacter](https://github.com/eatae/masteringGo/blob/master/ch08/byCharacter.go)
 
-* Чтение бинарных данных из /dev/random (пакет encoding/binary) <br>
+* **Чтение бинарных данных из /dev/random (пакет encoding/binary)** <br>
 [devRandom](https://github.com/eatae/masteringGo/blob/master/ch08/devRandom.go)
 
-* Чтение заданного кол-ва данных <br>
+* **Чтение заданного кол-ва данных** <br>
 [readSize](https://github.com/eatae/masteringGo/blob/master/ch08/readSize.go)
 
-* Чтение CSV файла и создание PNG <br>
+* **Чтение CSV файла и создание PNG** <br>
 [CSVplot](https://github.com/eatae/masteringGo/blob/master/ch08/CSVplot.go)
 
-* Запись в файл (несколько способов) <br>
+* **Запись в файл (несколько способов)** <br>
 [save](https://github.com/eatae/masteringGo/blob/master/ch08/save.go)
 
-* Загрузка и сохранение данных на диске<br>
+* **Загрузка и сохранение данных на диске** <br>
 CRUD <br>
 сереализация - encoding/gob <br>
 [kvSaveLoad](https://github.com/eatae/masteringGo/blob/master/ch08/kvSaveLoad.go)
 
-* Пакет strings - ввод и вывод данных в файл <br>
+* **Пакет strings - ввод и вывод данных в файл** <br>
 [str](https://github.com/eatae/masteringGo/blob/master/ch08/str.go)
 
-* Пакет bytes <br>
+* **Пакет bytes** <br>
 сохранение в буфер bytes.Buffer <br>
 работа с байтовыми срезами <br>
 [bytes](https://github.com/eatae/masteringGo/blob/master/ch08/bytes.go)
 
-* Полномочия доступа к файлам <br>
+* **Полномочия доступа к файлам** <br>
 смотрим доступы к файлу <br>
 [permissions](https://github.com/eatae/masteringGo/blob/master/ch08/permissions.go)
 
-* Обработка сигналов в UNIX <br>
+* **Обработка сигналов в UNIX** <br>
 пакет os/signal <br>
 обрабатываем сигналы передавая их  в процесс <br>
 [handleTwo](https://github.com/eatae/masteringGo/blob/master/ch08/handleTwo.go)
 
-* Обработка всех сигналов системы <br>
+* **Обработка всех сигналов системы** <br>
 так же передаём сигналы в процесс <br>
 [handleAll](https://github.com/eatae/masteringGo/blob/master/ch08/handleAll.go)
 
-* Реализация утилиты cat(1) на Go <br>
+* **Реализация утилиты cat(1) на Go** <br>
 вывод содержимого файла в стандартный поток вывода <br>
 [cat](https://github.com/eatae/masteringGo/blob/master/ch08/cat.go)
 
-* Структура syscall.PtraceRegs <br>
+* **Структура syscall.PtraceRegs** <br>
 вызов внешней команды для дочерних процессов <br>
 [ptraceRegs](https://github.com/eatae/masteringGo/blob/master/ch08/ptraceRegs.go)
 
-* Отслеживание системных вызовов <br>
+* **Отслеживание системных вызовов** <br>
 [traceSyscall](https://github.com/eatae/masteringGo/blob/master/ch08/traceSyscall.go)
 
-* Идентификаторы пользователя и группы <br>
+* **Идентификаторы пользователя и группы** <br>
 пакеты os, os/user <br>
 находим id пользователя системы и групп к которой принадлежит пользователь <br>
 [ids](https://github.com/eatae/masteringGo/blob/master/ch08/ids.go)
