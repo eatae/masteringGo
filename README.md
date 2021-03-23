@@ -403,9 +403,86 @@
 [cobra](https://github.com/eatae/masteringGo/tree/master/ch08/cobra)
 
 
-##### Интерфейсы io.Reader и io.Writer <br>
+##### Интерфейсы io.Reader и io.Writer (Чтение / Запись в файл) <br>
 
-* Псотрочное чтение текстового файла <br>
+* Посотрочное чтение текстового файла (пакет bufio) <br>
+[byLine](https://github.com/eatae/masteringGo/blob/master/ch08/byLine.go)
+
+* Чтение текстового файла по словам (пакет bufio, regexp) <br>
+[byWord](https://github.com/eatae/masteringGo/blob/master/ch08/byWord.go)
+
+* Чтение текстового файла по символам <br>
+[byCharacter](https://github.com/eatae/masteringGo/blob/master/ch08/byCharacter.go)
+
+* Чтение бинарных данных из /dev/random (пакет encoding/binary) <br>
+[devRandom](https://github.com/eatae/masteringGo/blob/master/ch08/devRandom.go)
+
+* Чтение заданного кол-ва данных <br>
+[readSize](https://github.com/eatae/masteringGo/blob/master/ch08/readSize.go)
+
+* Чтение CSV файла и создание PNG <br>
+[CSVplot](https://github.com/eatae/masteringGo/blob/master/ch08/CSVplot.go)
+
+* Запись в файл (несколько способов) <br>
+[save](https://github.com/eatae/masteringGo/blob/master/ch08/save.go)
+
+* Загрузка и сохранение данных на диске - CRUD (сереализация encoding/gob) <br>
+[kvSaveLoad](https://github.com/eatae/masteringGo/blob/master/ch08/kvSaveLoad.go)
+
+* Пакет strings - ввод и вывод данных в файл <br>
+[str](https://github.com/eatae/masteringGo/blob/master/ch08/str.go)
+
+* Пакет bytes <br>
++ сохранение в буфер bytes.Buffer <br>
++ работа с байтовыми срезами <br>
+[ссылка](адрес)
+
+* Название <br>
+[ссылка](адрес)
+
+* Название <br>
+[ссылка](адрес)
+
+* Название <br>
+[ссылка](адрес)
+
+* Название <br>
+[ссылка](адрес)
+
+* Название <br>
+[ссылка](адрес)
+
+* Название <br>
+[ссылка](адрес)
+
+* Название <br>
+[ссылка](адрес)
+
+* Название <br>
+[ссылка](адрес)
+
+* Название <br>
+[ссылка](адрес)
+
+* Название <br>
+[ссылка](адрес)
+
+* Название <br>
+[ссылка](адрес)
+
+* Название <br>
+[ссылка](адрес)
+
+* Название <br>
+[ссылка](адрес)
+
+* Название <br>
+[ссылка](адрес)
+
+* Название <br>
+[ссылка](адрес)
+
+* Название <br>
 [ссылка](адрес)
 
 * Название <br>
