@@ -426,28 +426,35 @@
 * Запись в файл (несколько способов) <br>
 [save](https://github.com/eatae/masteringGo/blob/master/ch08/save.go)
 
-* Загрузка и сохранение данных на диске - CRUD (сереализация encoding/gob) <br>
+* Загрузка и сохранение данных на диске<br>
+CRUD<br>
+сереализация - encoding/gob<br>
 [kvSaveLoad](https://github.com/eatae/masteringGo/blob/master/ch08/kvSaveLoad.go)
 
 * Пакет strings - ввод и вывод данных в файл <br>
 [str](https://github.com/eatae/masteringGo/blob/master/ch08/str.go)
 
 * Пакет bytes <br>
-+ сохранение в буфер bytes.Buffer <br>
-+ работа с байтовыми срезами <br>
-[ссылка](адрес)
+сохранение в буфер bytes.Buffer <br>
+работа с байтовыми срезами <br>
+[bytes](https://github.com/eatae/masteringGo/blob/master/ch08/bytes.go)
 
-* Название <br>
-[ссылка](адрес)
+* Полномочия доступа к файлам <br>
+смотрим доступы к файлу
+[permissions](https://github.com/eatae/masteringGo/blob/master/ch08/permissions.go)
 
-* Название <br>
-[ссылка](адрес)
+* **Обработка сигналов в UNIX** <br>
+пакет os/signal <br>
+обрабатываем сигналы передавая их  в процесс
+[handleTwo](https://github.com/eatae/masteringGo/blob/master/ch08/handleTwo.go)
 
-* Название <br>
-[ссылка](адрес)
+* Обработка всех сигналов системы <br>
+так же передаём сигналы в процесс
+[handleAll](https://github.com/eatae/masteringGo/blob/master/ch08/handleAll.go)
 
-* Название <br>
-[ссылка](адрес)
+* Реализация утилиты cat(1) на Go <br>
+
+[cat](https://github.com/eatae/masteringGo/blob/master/ch08/cat.go)
 
 * Название <br>
 [ссылка](адрес)
