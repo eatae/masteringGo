@@ -2,35 +2,71 @@
 
 ## Go и операционная система (ch01)
 
-* Читаем float из STDIN<br>
-[cla](https://github.com/eatae/masteringGo/blob/master/ch01/cla.go) <br>
-     
+
+
 * Пишем в файл (логи) <br>
 [customLog](https://github.com/eatae/masteringGo/blob/master/ch01/customLog.go)
 
+
 * Использование внешнего пакета <br>
+    >go get -v github.com/mactsouk/go/simpleGitHub
+    >
+Загруженные файлы пакета:
+~/go/src/github.com/mactsouk/go/simpleGitHub/<br>
+Скомпилированные файлы пакета:
+~/go/pkg/darwin_amd64/github.com/mactsouk/go/simpleGitHub.a <br>
 [getPackage](https://github.com/eatae/masteringGo/blob/master/ch01/getPackage.go)
-    
+
+
+##### Стандартные потоки UNIX: stdin, stdout и stderr <br>
+
+* Стандартный поток вывода <br>
+    пишем в STDOUT <br>
+[stdOUT](https://github.com/eatae/masteringGo/blob/master/ch01/stdOUT.go)
+
+
+* Получение данных от пользователя <br>
+    читаем STDIN
+[stdIN](https://github.com/eatae/masteringGo/blob/master/ch01/stdIN.go)
+
+
+* Работа с аргументами командной строки
+    читаем float из STDIN<br>
+[cla](https://github.com/eatae/masteringGo/blob/master/ch01/cla.go)
+
+
+* Вывод ошибок в STDERR <br>
+    можно перенаправить поток вывода ошибок в файл
+[stdERR](https://github.com/eatae/masteringGo/blob/master/ch01/stdERR.go)
+
+
+##### Запись в журнальные файлы, Логирование <br>
+   debug <br>
+   info <br>
+   notice <br> 
+   warning <br>
+   err <br>
+   critical <br>
+   alert <br>
+   emerg <br>
+      
+* Пишем в системный LogFile <br>
+[logFiles](https://github.com/eatae/masteringGo/blob/master/ch01/logFiles.go)
+
+
 * Пишем в системный LogFatal <br>
 [logFatal](https://github.com/eatae/masteringGo/blob/master/ch01/logFatal.go)
     
-* Пишем в системный LogFile <br>
-[logFiles](https://github.com/eatae/masteringGo/blob/master/ch01/logFiles.go)
     
 * Пишем в системный LogPanic <br>
 [logPanic](https://github.com/eatae/masteringGo/blob/master/ch01/logPanic.go)
     
+    
 * Эмулируем свой Error <br>
 [newError](https://github.com/eatae/masteringGo/blob/master/ch01/newError.go)
     
-* Вывод ошибок в STDERR (поток ошибок) <br>
-[stdERR](https://github.com/eatae/masteringGo/blob/master/ch01/stdERR.go)
     
-* Получение данных от пользователя (читаем STDIN)<br>
-[stdIN](https://github.com/eatae/masteringGo/blob/master/ch01/stdIN.go)
     
-* Пишем в STDOUT <br>
-[stdOUT](https://github.com/eatae/masteringGo/blob/master/ch01/stdOUT.go)
     
     
 ## Go изнутри (ch02)
